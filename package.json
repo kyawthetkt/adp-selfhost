@@ -2,8 +2,11 @@
     "name": "demo-parse-server-migration",
     "version": "0.0.1",
     "private": true,
-    "dependencies": {},
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "http": "^0.0.1-security"
+    },
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     }
 }
